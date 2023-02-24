@@ -1,23 +1,42 @@
-#title {
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+  font-weight: bolder;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.white-section{
+  background-color: white;
+}
+
+.colored-section{
   background-color: #ff4c68;
   color: white;
 }
 
-body {
-  font-family: "Montserrat";
-}
+/* Title Section */
 
-h1 {
-  font-family: "Montserrat";
-  font-weight: bolder;
-  font-size: 5rem;
-  size: 5rem;
-  line-height: 1.5;
-}
-
-.container-fluid {
+#title .container-fluid {
   padding: 3% 15% 7%;
+  text-align: left;
 }
+
+/* Title Image */
 
 .title-image {
   width: 20%;
@@ -27,6 +46,18 @@ h1 {
   right: 25%;
   
 
+}
+/* Headings */
+.big-heading {
+  font-size: 5rem;
+  size: 5rem;
+  line-height: 1.5;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 /* Download Buttons */
@@ -63,9 +94,8 @@ h1 {
     z-index: 1;
 } 
 
-#features h3 {
+.feature-title {
   margin-top: 20px;
-  font-weight: bold;
   font-size: 20px;
 }
 #features p {
@@ -74,7 +104,6 @@ h1 {
 }
 
 .feature-box {
-  text-align: center;
     margin: 7% 0;
 }
 
@@ -88,15 +117,10 @@ h1 {
 /* Testimonial Section */
 
 #testimonials{
-  
-  text-align: center;
   background-color: #cf8172;
-  color: white;
 }
 
-#testimonials h2{
-  font-family: "Montserrat-Bold";
-  font-weight: bold;
+.testimonial-text{
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -107,13 +131,9 @@ h1 {
   margin: 20px;
 }
 
-.carousel-item{
-  padding: 7% 15%;
-}
 
 #press{
   background-color: #cf8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -126,33 +146,19 @@ h1 {
 
 #pricing{
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column{
   padding: 3% 2%;
 }
 
-
-
-/* cta Section  */
-
-#cta{
-  background-color: #ff4c68;
-  text-align: center;
-}
-
-.cta-content{
-  padding: 5%;
-}
-
-.cta-content h3{
-  font-weight: bold;
-  color: white;
-  font-size: 3.5rem;
+.price-text{
+  font-size: 3rem;
   line-height: 1.5;
 }
 
+
+/* cta Section  */
 
 .download-button-cta{
   margin: 50px 40px;
@@ -162,8 +168,6 @@ h1 {
 
 #footer{
   background-color: white;
-  text-align: center;
-  padding: 7% 15% 1%;
 }
 
 #footer a{
